@@ -1,0 +1,6 @@
+framework module Pods_JsVouch {
+  umbrella header "Pods-JsVouch-umbrella.h"
+
+  export *
+  module * { export * }
+}
