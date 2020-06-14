@@ -19,7 +19,7 @@
         <!--Account View Controller-->
         <scene sceneID="y6D-ij-OIK">
             <objects>
-                <viewController storyboardIdentifier="AccountViewController" id="5A1-Fc-d9c" customClass="AccountViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AccountViewController" id="5A1-Fc-d9c" customClass="AccountViewController" customModule="JsVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Oex-qb-SVK"/>
                         <viewControllerLayoutGuide type="bottom" id="W4s-RK-d4g"/>
@@ -32,7 +32,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AccountTableViewCell" id="q3U-Sq-xTR" customClass="AccountTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AccountTableViewCell" id="q3U-Sq-xTR" customClass="AccountTableViewCell" customModule="JsVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="q3U-Sq-xTR" id="iI0-Jx-SwU">
@@ -86,7 +86,7 @@
         <!--My Information View Controller-->
         <scene sceneID="Bsi-F2-KU2">
             <objects>
-                <viewController id="Q0c-S2-hZd" customClass="MyInformationViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Q0c-S2-hZd" customClass="MyInformationViewController" customModule="JsVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CLq-Ln-0Ms"/>
                         <viewControllerLayoutGuide type="bottom" id="Fwr-LV-Ydu"/>
@@ -99,7 +99,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DataWithLockTableViewCell" rowHeight="44" id="Vr9-1J-SHX" customClass="DataWithLockTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DataWithLockTableViewCell" rowHeight="44" id="Vr9-1J-SHX" customClass="DataWithLockTableViewCell" customModule="JsVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Vr9-1J-SHX" id="6sR-Zh-AxQ">
@@ -134,7 +134,7 @@
                                             <outlet property="textfield_data" destination="CgU-Xz-Me5" id="LWR-OA-JGC"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DataWithoutLockTableViewCell" id="DM8-9D-EO4" customClass="DataWithoutLockTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DataWithoutLockTableViewCell" id="DM8-9D-EO4" customClass="DataWithoutLockTableViewCell" customModule="JsVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DM8-9D-EO4" id="VoD-VW-cWv">
@@ -167,7 +167,7 @@
                                             <outlet property="label_title" destination="UrN-2b-x0R" id="k7f-DD-OZO"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DataWithSwitchTableViewCell" id="WZ7-uk-uwv" customClass="DataWithSwitchTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DataWithSwitchTableViewCell" id="WZ7-uk-uwv" customClass="DataWithSwitchTableViewCell" customModule="JsVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="116" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WZ7-uk-uwv" id="4YN-im-Ssr">
@@ -231,7 +231,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You must be at least 18 years old" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gR2-ka-gtN" customClass="VSLabel" customModule="Pso_live" customModuleProvider="target">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You must be at least 18 years old" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gR2-ka-gtN" customClass="VSLabel" customModule="JsVouch" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -253,7 +253,7 @@
         <!--Browser View Controller-->
         <scene sceneID="ZNI-wI-p4z">
             <objects>
-                <viewController id="as1-Ic-KoV" customClass="BrowserViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="as1-Ic-KoV" customClass="BrowserViewController" customModule="JsVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L00-yy-i5h"/>
                         <viewControllerLayoutGuide type="bottom" id="ZTW-BO-FkG"/>
@@ -298,7 +298,7 @@
         <!--Purchase History View Controller-->
         <scene sceneID="9s9-xq-0Of">
             <objects>
-                <viewController storyboardIdentifier="PurchaseHistoryViewController" id="CJ9-8P-DQO" customClass="PurchaseHistoryViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PurchaseHistoryViewController" id="CJ9-8P-DQO" customClass="PurchaseHistoryViewController" customModule="JsVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EC5-cO-93K"/>
                         <viewControllerLayoutGuide type="bottom" id="NX9-Cd-HSl"/>
@@ -343,7 +343,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="historyTableViewCell" rowHeight="90" id="M3O-Z2-2Li" customClass="HistoryTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="historyTableViewCell" rowHeight="90" id="M3O-Z2-2Li" customClass="HistoryTableViewCell" customModule="JsVouch" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="M3O-Z2-2Li" id="ZjD-R8-FjX">
@@ -462,7 +462,7 @@
         <!--Ping History View Controller-->
         <scene sceneID="zXa-tT-03b">
             <objects>
-                <viewController storyboardIdentifier="PingHistoryViewController" id="okd-oN-XYl" customClass="PingHistoryViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PingHistoryViewController" id="okd-oN-XYl" customClass="PingHistoryViewController" customModule="JsVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kfd-MM-wer"/>
                         <viewControllerLayoutGuide type="bottom" id="ruR-g2-GIJ"/>
@@ -575,7 +575,7 @@
         <!--Ping Received View Controller-->
         <scene sceneID="NRa-b9-YBC">
             <objects>
-                <viewController storyboardIdentifier="PingReceivedViewController" id="Lhh-sK-mxc" customClass="PingReceivedViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PingReceivedViewController" id="Lhh-sK-mxc" customClass="PingReceivedViewController" customModule="JsVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="N6k-bO-dHn"/>
                         <viewControllerLayoutGuide type="bottom" id="frb-SJ-5q5"/>
@@ -623,7 +623,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="FavouriteTableViewCell" rowHeight="72" id="kX0-FY-qA3" customClass="FavouriteTableViewCell" customModule="Pso_live" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="FavouriteTableViewCell" rowHeight="72" id="kX0-FY-qA3" customClass="FavouriteTableViewCell" customModule="JsVouch" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="28" width="375" height="72"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kX0-FY-qA3" id="961-gD-Ou9">
@@ -710,7 +710,7 @@
         <!--Ping Sent View Controller-->
         <scene sceneID="TTw-nh-ZwY">
             <objects>
-                <viewController storyboardIdentifier="PingSentViewController" id="gCJ-yV-KRu" customClass="PingSentViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PingSentViewController" id="gCJ-yV-KRu" customClass="PingSentViewController" customModule="JsVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kJA-3V-5nR"/>
                         <viewControllerLayoutGuide type="bottom" id="W47-v8-oTa"/>
@@ -803,7 +803,7 @@
         <!--Creat Pin View Controller-->
         <scene sceneID="g6q-8f-8x3">
             <objects>
-                <viewController id="FTv-GI-PHn" customClass="CreatPinViewController" customModule="Pso_live" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="FTv-GI-PHn" customClass="CreatPinViewController" customModule="JsVouch" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4T8-XW-a0H"/>
                         <viewControllerLayoutGuide type="bottom" id="twD-pO-H3R"/>

@@ -1,0 +1,6 @@
+framework module JsVouch {
+  umbrella header "JsVouch-umbrella.h"
+
+  export *
+  module * { export * }
+}

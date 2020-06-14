@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "APPinViewController.h"
+#import "APPinView.h"
 
 //! Project version number for JsVouch.
 FOUNDATION_EXPORT double JsVouchVersionNumber;
