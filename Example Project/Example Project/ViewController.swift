@@ -21,7 +21,7 @@ class ViewController: UIViewController {
 		//HomeViewController.instantiateFromStoryboard()
 		let vouchMana = VouchManager()
 		
-		 vouchMana.getVouchNavigaionController(unique_param: "1111111111111",token: "486824320Ab@*/PAK", completionHandler: {success,NavCon,errorDes in
+		 vouchMana.getVouchNavigaionController(unique_param: "1111111111111",token: "486824320Ab@*/XFed", completionHandler: {success,NavCon,errorDes in
 			if success{
 				if let nav = NavCon{
 					nav.modalPresentationStyle = .fullScreen
