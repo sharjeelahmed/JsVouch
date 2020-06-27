@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
  
 
   spec.name         = "JsVouch"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "vouch pod for Js"
   spec.description  = "Vouch framework for Js . presented by shairjeel ahmed"
   spec.homepage     = "https://github.com/sharjeelahmed/JsVouch"
